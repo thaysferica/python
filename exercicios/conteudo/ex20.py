@@ -1,0 +1,10 @@
+import math
+angulo_graus = float(input('Digite o ângulo que você deseja: '))
+angulo_rad = math.radians(angulo_graus)
+seno = math.sin(angulo_rad)
+cosseno = math.cos(angulo_rad)
+tangente = math.tan(angulo_rad)
+print(f'O ângulo de {angulo_graus:.1f}° tem:')
+print(f'-> SENO de {seno:.2f}')
+print(f'-> COSSENO de {cosseno:.2f}')
+print(f'-> TANGENTE de {tangente:.2f}')
