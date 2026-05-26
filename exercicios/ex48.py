@@ -1,6 +1,5 @@
-import time
-for cont in range(10, -1, -1):
-    print(cont)
-    time.sleep(1) 
-
-print("BUM! BUM! POOW! ")
+from time import sleep
+for c in range(10,0,-1):
+    print(c)
+    sleep(1)
+print ("BUM! BUM! POOOW!")
